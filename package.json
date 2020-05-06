@@ -1,0 +1,24 @@
+{
+  "name": "drill-app",
+  "version": "0.0.1",
+  "description": "Marching Drill Design Web Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilatrivia/drill-app.git"
+  },
+  "keywords": [
+    "marching",
+    "drill",
+    "design"
+  ],
+  "author": "Truman Kautzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tilatrivia/drill-app/issues"
+  },
+  "homepage": "https://github.com/tilatrivia/drill-app#readme"
+}

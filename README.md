@@ -3,4 +3,4 @@
 
 **Made by Truman Kautzman**
 
-Marching Drill Design Application
+Marching Drill Design Web Application

@@ -1,0 +1,72 @@
+
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+/* Header */
+#header {
+    flex: 0 1 auto;
+
+    background-color: lightblue;
+}
+
+
+/* Editor */
+#editor {
+    flex: 1 1 auto;
+    position: relative;
+}
+
+#chart-viewport {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    background-color: lightgoldenrodyellow;
+}
+
+#edit-panel {
+    display: none;
+    width: 200px;
+    height: 100%;
+
+    float: left;
+
+    background-color: lightpink;
+}
+
+#tool-panel {
+    display: none;
+    width: 200px;
+    height: 100%;
+    
+    float: right;
+
+    background-color: lightsalmon;
+}
+
+
+/* Footer */
+#footer {
+    flex: 0 1 auto;
+
+    background-color: lightgreen;
+}
