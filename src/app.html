@@ -7,21 +7,39 @@
     <div id="app">
         <div id="header">
             Header
-            <button id="edit-panel-toggle">Toggle Edit</button>
-            <button id="tool-panel-toggle">Toggle Tool</button>
+            <input id="test-input" type="number">
         </div>
 
         <div id="editor">
-            <div id="chart-viewport">
-                Drill Chart
+            <div id="edit-toolbox" class="side-toolbox">
+                <button id="edit-button-1" class="toolbox-button">1</button>
+                <button id="edit-button-2" class="toolbox-button">2</button>
+                <button id="edit-button-3" class="toolbox-button">3</button>
+                <button id="edit-button-4" class="toolbox-button">4</button>
+                <button id="edit-button-5" class="toolbox-button">5</button>
             </div>
 
-            <div id="edit-panel">
-                Edit Panel
+            <div id="chart-viewport">
+                <div id="chart">
+                    Drill Chart
+                    
+                </div>
+
+                <div id="edit-panel">
+                    Edit Panel
+                </div>
+                
+                <div id="form-panel">
+                    Tool Panel
+                </div>                
             </div>
-            
-            <div id="tool-panel">
-                Tool Panel
+
+            <div id="form-toolbox" class="side-toolbox">
+                <button id="form-button-1" class="toolbox-button">1</button>
+                <button id="form-button-2" class="toolbox-button">2</button>
+                <button id="form-button-3" class="toolbox-button">3</button>
+                <button id="form-button-4" class="toolbox-button">4</button>
+                <button id="form-button-5" class="toolbox-button">5</button>
             </div>
         </div>
 
